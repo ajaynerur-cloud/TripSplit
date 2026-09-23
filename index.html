@@ -1,31 +1,34 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <meta name="theme-color" content="#0f172a">
-    <meta name="description" content="Private trip expense splitting with QR-only invitations">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,viewport-fit=cover">
 
     <title>TripSplit</title>
 
-    <link rel="manifest" t
-    <link rel="icon" href="./iconsns/icon-192.png
-    <link rel="s
-</head>
+    <meta name="theme-color" content="#0f172a">
+
+    <link rel="manifest" href="./styles.css
+
+    <link rel="icon" href="./icons/icon-apple-touch/head>
+
 <body>
 
-    <div id="toast" class="toast" aria-live="polite"></div>
+    <div id="toast" class="toast"></div>
 
     <header class="topbar">
         <div class="brand">
             <span class="brand-mark">TS</span>
+
             <div>
                 <strong>TripSplit</strong>
                 <small>QR-only trip expenses</small>
             </div>
         </div>
 
-        <button id="installBtn" class="btn ghost hidden">
+        <button id="installBtn"
+                class="btn ghost hidden">
             Install App
         </button>
     </header>
@@ -38,16 +41,18 @@
     </main>
 
     <!-- Supabase -->
-    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2script>
 
     <!-- QR Code -->
-    https://unpkg.com/qrcode/build/qrcode.min.jsscript>
+    https://cdn.jsdelivr.net/npm/qrcode@1.5.4/build/qrcode.min.jsscript>
 
     <!-- Excel Export -->
-    <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+    <script src=jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.jsscript>
 
-    <!-- App Files -->
-    ./config.jsscript>
+    <!-- App Config -->
+    <script src="./pt>
+
+    <!-- Main App -->
     ./app.jsscript>
 
 </body>
