@@ -1,0 +1,8 @@
+{
+  "appId": "com.tripsplit.app",
+  "appName": "TripSplit",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  }
+}
